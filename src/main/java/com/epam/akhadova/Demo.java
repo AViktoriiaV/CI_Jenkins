@@ -14,6 +14,7 @@ public class Demo {
     public static void main(String args[]) throws IOException {
         DownloadFile.download(url, fileName);
         System.out.println("File successfully saved");
+        System.out.println("Changed");
     }
 
 }
